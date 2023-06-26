@@ -61,7 +61,7 @@ const Meme = () => {
   }, [index, memes]);
 
   return (
-    <div className="flex flex-col items-center h-[100vh] bg-gray-900">
+    <div className="flex flex-col items-center h-screen bg-gray-900">
       <button
         onClick={() => setIndex(index + 1)}
         className="bg-blue-600 hover:bg-blue-700 text-white text-xl m-4 font-bold py-2 px-4 rounded-full"

@@ -13,7 +13,7 @@ const MemeGenerated = () => {
     setCopied(true); 
   }
   return (
-    <div className="flex flex-col items-center pt-[10vh] h-[200vh] bg-gray-900">
+    <div className="flex flex-col items-center h-screen bg-gray-900">
       {imgURL && <img src={imgURL} alt="meme" />}
       <button onClick={copyMeme} className="bg-blue-600 hover:bg-blue-700 text-white text-xl mt-4 font-bold py-2 px-4 rounded-full">
         {copied ? "Copied!" : "Copy" }
