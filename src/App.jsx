@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Meme from "./components/Meme";
-import MemeGenerated from "./MemeGenerated";
+import MemeGenerated from "./components/MemeGenerated";
 
 const App = () => {
   return (

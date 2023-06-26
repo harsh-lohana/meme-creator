@@ -6,6 +6,7 @@ const Meme = () => {
   const [memes, setMemes] = useState([]);
   const [index, setIndex] = useState(0);
   const [captions, setCaptions] = useState([]);
+  
   const navigate = useNavigate();
 
   const shuffleMemes = (arr) => {
